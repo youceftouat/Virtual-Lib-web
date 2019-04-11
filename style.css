@@ -25,12 +25,12 @@
 }
 @font-face {
     font-family: 'cac_champagneregular';
-    src: url('fonts/cac_champagne-webfont.eot');
-    src: url('fonts/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/cac_champagne-webfont.woff2') format('woff2'),
-         url('fonts/cac_champagne-webfont.woff') format('woff'),
-         url('fonts/cac_champagne-webfont.ttf') format('truetype'),
-         url('fonts/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    src: url('polices/cac_champagne-webfont.eot');
+    src: url('polices/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/cac_champagne-webfont.woff2') format('woff2'),
+         url('polices/cac_champagne-webfont.woff') format('woff'),
+         url('polices/cac_champagne-webfont.ttf') format('truetype'),
+         url('polices/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -38,12 +38,12 @@
 
 @font-face {
     font-family: 'open_sansitalic';
-    src: url('fonts1/OpenSans-Italic-webfont.eot');
-    src: url('fonts1/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts1/OpenSans-Italic-webfont.woff2') format('woff2'),
-         url('fonts1/OpenSans-Italic-webfont.woff') format('woff'),
-         url('fonts1/OpenSans-Italic-webfont.ttf') format('truetype'),
-         url('fonts1/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+    src: url('polices/OpenSans-Italic-webfont.eot');
+    src: url('polices/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/OpenSans-Italic-webfont.woff2') format('woff2'),
+         url('polices/OpenSans-Italic-webfont.woff') format('woff'),
+         url('polices/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('polices/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
