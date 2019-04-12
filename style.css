@@ -67,7 +67,7 @@ section h1, footer h1, nav a
 {
     font-family: Dayrom, serif;
     font-weight: normal;
-    text-transform: uppercase;
+   text-transform: uppercase;
 }
 
 /* Header */
@@ -120,11 +120,12 @@ nav ul
 {
     list-style-type: none;
     display: flex;
+    margin-bottom: 100px;
 }
 
 nav li
 {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 nav a
@@ -138,9 +139,32 @@ nav a
 nav a:hover
 {
     color: #760001;
-    border-bottom: 3px solid #760001;
+   /* border-bottom: 2px solid #760001;*/
+    border-top: 2px solid #760001;
+    margin-top: 1px;
 }
+/*Cacher les sous menus et les alignés à gauche.*/
+nav ul li ul {
+ display:none;
+    margin:0;
+    padding:0;
+ }
 
+/*Remettre en vertical le sous menu (car pour l'instant, il est toujours horizontal, 
+vu qu'il a hérité des propriétés de la liste principale)*/
+
+nav li:hover ul li {
+ float:none;
+ }
+
+/*Faire en sorte qu'au survol du menu, les sous-menus se déroulent.*/
+nav ul li:hover ul {
+ display:block;
+}
+/*Éviter d’avoir un décalage*/
+nav li ul {
+ position:absolute;
+ }
 
 /* Bannière */
 
